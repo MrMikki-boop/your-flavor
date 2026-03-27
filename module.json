@@ -25,6 +25,11 @@
       "path": "languages/en.json"
     },
     {
+      "lang": "ru",
+      "name": "Русский",
+      "path": "languages/ru.json"
+    },
+    {
       "lang": "pt-BR",
       "name": "Português (Brasil)",
       "path": "languages/pt-BR.json"
