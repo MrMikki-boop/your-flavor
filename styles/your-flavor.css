@@ -964,7 +964,8 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 5px;
+    /* Уменьшаем боковые отступы с 5px до 1px, давая тексту максимум ширины */
+    padding: 5px 1px;
     background: var(--yf-bg-elevated);
     border: 2px solid transparent;
     border-radius: var(--yf-radius-md);
@@ -1001,15 +1002,25 @@
 }
 
 .yf-layout-name {
-    font-size: calc(8px * var(--yf-ui-scale, 1));
+    font-size: calc(10px * var(--yf-ui-scale, 1));
     font-weight: 500;
     text-align: center;
     color: var(--yf-text-muted);
-    line-height: 1.2;
+    line-height: 1.1;
     max-width: 100%;
+
+    /* Слегка сжимаем расстояние между буквами, визуально это почти незаметно */
+    letter-spacing: -0.3px;
+
+    /* Разрешаем перенос только целыми словами */
+    white-space: normal;
+    word-break: normal;
+    overflow-wrap: break-word; /* Разорвет слово, ТОЛЬКО если оно совсем гигантское (типа "Драконорожденный") */
+
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
     overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
 }
 
 .yf-layout-option.selected .yf-layout-name {

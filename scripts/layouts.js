@@ -744,7 +744,7 @@ export const LAYOUTS = {
         icon: 'fas fa-rocket',
         category: 'modern',
         defaults: {
-            fontFamily: 'Jura',
+            fontFamily: 'Press Start 2P',
             fontSize: 14,
             textColor: '#00ffff',
             backgroundColor: 'rgba(5, 15, 25, 0.98)',
@@ -767,8 +767,8 @@ export const LAYOUTS = {
         icon: 'fas fa-microchip',
         category: 'modern',
         defaults: {
-            fontFamily: 'Press Start 2P',
-            fontSize: 10,
+            fontFamily: 'Stalinist One',
+            fontSize: 12,
             textColor: '#ff00ff',
             backgroundColor: 'rgba(15, 5, 20, 0.98)',
             borderColor: '#ff00ff',
