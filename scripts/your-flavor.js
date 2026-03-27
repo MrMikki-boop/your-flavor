@@ -378,6 +378,18 @@ Hooks.on('getSceneControlButtons', (controls) => {
  */
 function _loadGoogleFonts() {
     const fonts = [
+        'PT+Serif:wght@400;700',
+        'PT+Sans:wght@400;700',
+        'Russo+One',
+        'Marck+Script',
+        'Neucha',
+        'Stalinist+One',
+        'Jura:wght@400;500;700',
+        'Philosopher:ital,wght@0,400;0,700;1,400;1,700',
+        'Crimson+Pro:wght@400;500;600;700',
+        'Press Start 2P:wght@400;500;600;700',
+        'Vollkorn:wght@400;500;700',
+        'Cormorant:wght@400;500;700',
         'Cinzel:wght@400;700',
         'Cinzel+Decorative:wght@400;700',
         'Great+Vibes',

@@ -10,6 +10,51 @@
  * @param {Object} customizations - The customizations object from config
  * @param {Object} [layoutDefaults] - Optional layout defaults to merge under customizations
  */
+
+/**
+ * Map of fonts without Cyrillic support to their Cyrillic-capable fallbacks.
+ * Chosen to match the visual spirit of the original font.
+ */
+const CYRILLIC_FALLBACKS = {
+    'Cinzel':             'PT Serif',
+    'Cinzel Decorative':  'PT Serif',
+    'Great Vibes':        'Marck Script',
+    'Tangerine':          'Marck Script',
+    'Uncial Antiqua':     'Vollkorn',
+    'Pirata One':         'Russo One',
+    'MedievalSharp':      'PT Serif',
+    'Almendra':           'Vollkorn',
+    'Fondamento':         'PT Serif',
+    'Bangers':            'Russo One',
+    'Nosifer':            'Neucha',
+    'Press Start 2P':     'Russo One',
+    'Black Ops One':      'Russo One',
+    'Indie Flower':       'Neucha',
+    'Permanent Marker':   'Neucha',
+    'Metamorphous':       'Vollkorn',
+    'Orbitron':           'Russo One',
+    'Creepster':          'Neucha',
+    'Amatic SC':          'Neucha',
+    'Eater':              'Russo One',
+    'New Rocker':         'Russo One',
+    'Audiowide':          'Russo One',
+    'Griffy':             'Neucha',
+};
+
+/**
+ * Build a font-family stack with Cyrillic fallback.
+ * If the chosen font has no Cyrillic glyphs, a matching
+ * Cyrillic-capable font is appended so Russian text stays styled.
+ */
+function buildFontStack(fontFamily) {
+    if (!fontFamily || fontFamily === 'inherit') return 'inherit';
+    const fallback = CYRILLIC_FALLBACKS[fontFamily];
+    if (fallback) {
+        return `"${fontFamily}", "${fallback}", serif`;
+    }
+    return `"${fontFamily}", serif`;
+}
+
 export function applyFlavorStyles(element, customizations, layoutDefaults = {}) {
     const styles = { ...layoutDefaults, ...customizations };
 

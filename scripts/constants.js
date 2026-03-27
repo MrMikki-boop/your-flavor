@@ -7,44 +7,32 @@ export const MODULE_ID = 'your-flavor';
 export const MODULE_NAME = 'Your Flavor';
 
 /**
- * Available Google Fonts for chat customization
+ * Available Google Fonts for chat customization (Cyrillic supported)
  */
-export const GOOGLE_FONTS = [
-    { id: 'default', name: 'Default (System)', family: 'inherit' },
-    { id: 'cinzel', name: 'Cinzel', family: 'Cinzel' },
-    { id: 'cinzel-decorative', name: 'Cinzel Decorative', family: 'Cinzel Decorative' },
-    { id: 'great-vibes', name: 'Great Vibes', family: 'Great Vibes' },
-    { id: 'tangerine', name: 'Tangerine', family: 'Tangerine' },
-    { id: 'uncial-antiqua', name: 'Uncial Antiqua', family: 'Uncial Antiqua' },
-    { id: 'pirata-one', name: 'Pirata One', family: 'Pirata One' },
-    { id: 'medieval-sharp', name: 'MedievalSharp', family: 'MedievalSharp' },
-    { id: 'im-fell-english', name: 'IM Fell English', family: 'IM Fell English' },
-    { id: 'almendra', name: 'Almendra', family: 'Almendra' },
-    { id: 'fondamento', name: 'Fondamento', family: 'Fondamento' },
-    { id: 'courier-prime', name: 'Courier Prime', family: 'Courier Prime' },
-    { id: 'bangers', name: 'Bangers', family: 'Bangers' },
-    { id: 'nosifer', name: 'Nosifer', family: 'Nosifer' },
-    { id: 'press-start-2p', name: 'Press Start 2P', family: 'Press Start 2P' },
-    { id: 'black-ops-one', name: 'Black Ops One', family: 'Black Ops One' },
-    { id: 'indie-flower', name: 'Indie Flower', family: 'Indie Flower' },
-    { id: 'permanent-marker', name: 'Permanent Marker', family: 'Permanent Marker' },
-    { id: 'metamorphous', name: 'Metamorphous', family: 'Metamorphous' },
+export const GOOGLE_FONTS =[
+    { id: 'cormorant', name: 'Cormorant', family: 'Cormorant' },
     { id: 'cormorant-garamond', name: 'Cormorant Garamond', family: 'Cormorant Garamond' },
+    { id: 'pt-serif', name: 'PT Serif', family: 'PT Serif' },
+    { id: 'pt-sans', name: 'PT Sans', family: 'PT Sans' },
+    { id: 'pt-mono', name: 'PT Mono', family: 'PT Mono' },
+    { id: 'russo-one', name: 'Russo One', family: 'Russo One' },
+    { id: 'marck-script', name: 'Marck Script', family: 'Marck Script' },
+    { id: 'pacifico', name: 'Pacifico', family: 'Pacifico' },
+    { id: 'neucha', name: 'Neucha', family: 'Neucha' },
+    { id: 'stalinist-one', name: 'Stalinist One', family: 'Stalinist One' },
+    { id: 'dela-gothic-one', name: 'Dela Gothic One', family: 'Dela Gothic One' },
+    { id: 'jura', name: 'Jura', family: 'Jura' },
+    { id: 'vollkorn', name: 'Vollkorn', family: 'Vollkorn' },
+    { id: 'Press Start 2P', name:  'Press Start 2P', family: 'Press Start 2P'},
     { id: 'philosopher', name: 'Philosopher', family: 'Philosopher' },
-    { id: 'marcellus', name: 'Marcellus', family: 'Marcellus' },
-    { id: 'shippori-mincho', name: 'Shippori Mincho', family: 'Shippori Mincho' },
     { id: 'orbitron', name: 'Orbitron', family: 'Orbitron' },
-    { id: 'creepster', name: 'Creepster', family: 'Creepster' },
-    { id: 'quicksand', name: 'Quicksand', family: 'Quicksand' },
     { id: 'amatic-sc', name: 'Amatic SC', family: 'Amatic SC' },
-    { id: 'eater', name: 'Eater', family: 'Eater' },
-    { id: 'new-rocker', name: 'New Rocker', family: 'New Rocker' },
-    { id: 'audiowide', name: 'Audiowide', family: 'Audiowide' },
     { id: 'lora', name: 'Lora', family: 'Lora' },
-    { id: 'griffy', name: 'Griffy', family: 'Griffy' }
+    { id: 'press-start-2p', name: 'Press Start 2P', family: 'Press Start 2P' },
+    { id: 'default', name: 'Default (System)', family: 'inherit' }
 ];
 
-export const PAUSE_EFFECTS = [
+export const PAUSE_EFFECTS =[
     { id: 'none', labelKey: 'YOUR_FLAVOR.Config.Foundry.PauseEffects.None' },
     { id: 'spin-slow', labelKey: 'YOUR_FLAVOR.Config.Foundry.PauseEffects.SpinSlow' },
     { id: 'spin-fast', labelKey: 'YOUR_FLAVOR.Config.Foundry.PauseEffects.SpinFast' },
@@ -83,7 +71,7 @@ export const DEFAULT_CONFIG = {
 /**
  * Foundry UI elements supported by the customizer.
  */
-export const FOUNDRY_UI_COMPONENTS = [
+export const FOUNDRY_UI_COMPONENTS =[
     {
         id: 'navigation',
         selector: ':is(#navigation, #scene-navigation)',
@@ -142,7 +130,7 @@ const DEFAULT_COMPONENT_STYLE = {
 /**
  * Customization categories that can be independently toggled
  */
-export const FOUNDRY_CATEGORIES = [
+export const FOUNDRY_CATEGORIES =[
     { id: 'theme', icon: 'fas fa-palette', labelKey: 'YOUR_FLAVOR.Config.Foundry.Categories.Theme' },
     { id: 'fonts', icon: 'fas fa-font', labelKey: 'YOUR_FLAVOR.Config.Foundry.Categories.Fonts' },
     { id: 'visibility', icon: 'fas fa-eye', labelKey: 'YOUR_FLAVOR.Config.Foundry.Categories.Visibility' },
@@ -155,7 +143,7 @@ export const FOUNDRY_CATEGORIES = [
 /**
  * Pre-built Foundry UI theme presets
  */
-export const FOUNDRY_THEME_PRESETS = [
+export const FOUNDRY_THEME_PRESETS =[
     {
         id: 'dark-fantasy',
         labelKey: 'YOUR_FLAVOR.Config.Foundry.Presets.DarkFantasy',

@@ -4,9 +4,6 @@
  * @module your-flavor/layouts
  */
 
-/**
- * Layout definitions with default styling
- */
 export const LAYOUTS = {
     none: {
         id: 'none',
@@ -28,8 +25,8 @@ export const LAYOUTS = {
         icon: 'fas fa-gem',
         category: 'basic',
         defaults: {
-            fontFamily: 'Cinzel',
-            fontSize: 14,
+            fontFamily: 'Cormorant',
+            fontSize: 15,
             textColor: '#e8dcc8',
             backgroundColor: 'rgba(20, 16, 12, 0.95)',
             borderColor: '#c9a227',
@@ -51,7 +48,7 @@ export const LAYOUTS = {
         icon: 'fas fa-scroll',
         category: 'basic',
         defaults: {
-            fontFamily: 'IM Fell English',
+            fontFamily: 'PT Serif',
             fontSize: 15,
             textColor: '#3d2b1f',
             backgroundColor: '#f4e4bc',
@@ -72,7 +69,7 @@ export const LAYOUTS = {
         icon: 'fas fa-crown',
         category: 'basic',
         defaults: {
-            fontFamily: 'Uncial Antiqua',
+            fontFamily: 'Vollkorn',
             fontSize: 15,
             textColor: '#ffd700',
             backgroundColor: 'rgba(80, 10, 20, 0.95)',
@@ -95,8 +92,8 @@ export const LAYOUTS = {
         icon: 'fas fa-mask',
         category: 'basic',
         defaults: {
-            fontFamily: 'Pirata One',
-            fontSize: 14,
+            fontFamily: 'Russo One',
+            fontSize: 13,
             textColor: '#b0b0b0',
             backgroundColor: 'rgba(5, 5, 5, 0.98)',
             borderColor: '#333333',
@@ -122,8 +119,8 @@ export const LAYOUTS = {
         icon: 'fas fa-shield-alt',
         category: 'class',
         defaults: {
-            fontFamily: 'Cinzel',
-            fontSize: 15,
+            fontFamily: 'Cormorant',
+            fontSize: 16,
             textColor: '#e0e0e0',
             backgroundColor: 'rgba(60, 50, 45, 0.95)',
             borderColor: '#8b4513',
@@ -143,8 +140,8 @@ export const LAYOUTS = {
         icon: 'fas fa-user-ninja',
         category: 'class',
         defaults: {
-            fontFamily: 'Pirata One',
-            fontSize: 14,
+            fontFamily: 'Russo One',
+            fontSize: 13,
             textColor: '#a0a0a0',
             backgroundColor: 'rgba(15, 15, 20, 0.98)',
             borderColor: '#4a4a4a',
@@ -166,8 +163,8 @@ export const LAYOUTS = {
         icon: 'fas fa-music',
         category: 'class',
         defaults: {
-            fontFamily: 'Tangerine',
-            fontSize: 22,
+            fontFamily: 'Marck Script',
+            fontSize: 20,
             textColor: '#ffe4b5',
             backgroundColor: 'rgba(75, 35, 80, 0.95)',
             borderColor: '#da70d6',
@@ -189,8 +186,8 @@ export const LAYOUTS = {
         icon: 'fas fa-leaf',
         category: 'class',
         defaults: {
-            fontFamily: 'MedievalSharp',
-            fontSize: 14,
+            fontFamily: 'Philosopher',
+            fontSize: 15,
             textColor: '#c8e6c9',
             backgroundColor: 'rgba(20, 50, 30, 0.95)',
             borderColor: '#4caf50',
@@ -212,8 +209,8 @@ export const LAYOUTS = {
         icon: 'fas fa-axe-battle',
         category: 'class',
         defaults: {
-            fontFamily: 'Cinzel',
-            fontSize: 16,
+            fontFamily: 'Russo One',
+            fontSize: 14,
             textColor: '#ffccbc',
             backgroundColor: 'rgba(60, 20, 15, 0.95)',
             borderColor: '#d84315',
@@ -235,8 +232,8 @@ export const LAYOUTS = {
         icon: 'fas fa-cross',
         category: 'class',
         defaults: {
-            fontFamily: 'Almendra',
-            fontSize: 14,
+            fontFamily: 'Vollkorn',
+            fontSize: 15,
             textColor: '#5d4037',
             backgroundColor: 'rgba(255, 248, 240, 0.95)',
             borderColor: '#ffc107',
@@ -258,8 +255,8 @@ export const LAYOUTS = {
         icon: 'fas fa-sun',
         category: 'class',
         defaults: {
-            fontFamily: 'Cinzel',
-            fontSize: 15,
+            fontFamily: 'Cormorant',
+            fontSize: 16,
             textColor: '#ffd700',
             backgroundColor: 'rgba(30, 60, 90, 0.95)',
             borderColor: '#ffd700',
@@ -281,8 +278,8 @@ export const LAYOUTS = {
         icon: 'fas fa-yin-yang',
         category: 'class',
         defaults: {
-            fontFamily: 'Fondamento',
-            fontSize: 14,
+            fontFamily: 'Neucha',
+            fontSize: 16,
             textColor: '#d7ccc8',
             backgroundColor: 'rgba(50, 40, 35, 0.95)',
             borderColor: '#8d6e63',
@@ -302,8 +299,8 @@ export const LAYOUTS = {
         icon: 'fas fa-fire',
         category: 'class',
         defaults: {
-            fontFamily: 'Cinzel Decorative',
-            fontSize: 14,
+            fontFamily: 'Cormorant Garamond',
+            fontSize: 16,
             textColor: '#ffab91',
             backgroundColor: 'rgba(50, 15, 15, 0.95)',
             borderColor: '#ff5722',
@@ -325,8 +322,8 @@ export const LAYOUTS = {
         icon: 'fas fa-hat-wizard',
         category: 'class',
         defaults: {
-            fontFamily: 'Cinzel Decorative',
-            fontSize: 14,
+            fontFamily: 'Cormorant Garamond',
+            fontSize: 16,
             textColor: '#d4c4ff',
             backgroundColor: 'rgba(20, 10, 40, 0.95)',
             borderColor: '#8a2be2',
@@ -348,8 +345,8 @@ export const LAYOUTS = {
         icon: 'fas fa-bow-arrow',
         category: 'class',
         defaults: {
-            fontFamily: 'MedievalSharp',
-            fontSize: 14,
+            fontFamily: 'Philosopher',
+            fontSize: 15,
             textColor: '#c5e1a5',
             backgroundColor: 'rgba(35, 45, 30, 0.95)',
             borderColor: '#689f38',
@@ -369,8 +366,8 @@ export const LAYOUTS = {
         icon: 'fas fa-skull',
         category: 'class',
         defaults: {
-            fontFamily: 'Almendra',
-            fontSize: 14,
+            fontFamily: 'Vollkorn',
+            fontSize: 15,
             textColor: '#ce93d8',
             backgroundColor: 'rgba(30, 10, 35, 0.98)',
             borderColor: '#9c27b0',
@@ -396,7 +393,7 @@ export const LAYOUTS = {
         icon: 'fas fa-spa',
         category: 'race',
         defaults: {
-            fontFamily: 'Tangerine',
+            fontFamily: 'Marck Script',
             fontSize: 20,
             textColor: '#e8f5e9',
             backgroundColor: 'rgba(20, 40, 35, 0.95)',
@@ -419,8 +416,8 @@ export const LAYOUTS = {
         icon: 'fas fa-fist-raised',
         category: 'race',
         defaults: {
-            fontFamily: 'Cinzel',
-            fontSize: 16,
+            fontFamily: 'Russo One',
+            fontSize: 14,
             textColor: '#a5d6a7',
             backgroundColor: 'rgba(30, 40, 20, 0.95)',
             borderColor: '#558b2f',
@@ -440,8 +437,8 @@ export const LAYOUTS = {
         icon: 'fas fa-hammer',
         category: 'race',
         defaults: {
-            fontFamily: 'Uncial Antiqua',
-            fontSize: 14,
+            fontFamily: 'Vollkorn',
+            fontSize: 15,
             textColor: '#ffe0b2',
             backgroundColor: 'rgba(55, 40, 30, 0.95)',
             borderColor: '#bf8040',
@@ -463,8 +460,8 @@ export const LAYOUTS = {
         icon: 'fas fa-dragon',
         category: 'race',
         defaults: {
-            fontFamily: 'Cinzel Decorative',
-            fontSize: 15,
+            fontFamily: 'Cormorant Garamond',
+            fontSize: 16,
             textColor: '#ffecb3',
             backgroundColor: 'rgba(60, 20, 10, 0.95)',
             borderColor: '#ff6f00',
@@ -490,8 +487,8 @@ export const LAYOUTS = {
         icon: 'fas fa-skull-crossbones',
         category: 'theme',
         defaults: {
-            fontFamily: 'Almendra',
-            fontSize: 14,
+            fontFamily: 'Vollkorn',
+            fontSize: 15,
             textColor: '#b8e6b8',
             backgroundColor: 'rgba(10, 15, 10, 0.98)',
             borderColor: '#2d5a2d',
@@ -513,8 +510,8 @@ export const LAYOUTS = {
         icon: 'fas fa-teeth-open',
         category: 'theme',
         defaults: {
-            fontFamily: 'Cinzel',
-            fontSize: 14,
+            fontFamily: 'Cormorant',
+            fontSize: 16,
             textColor: '#e0e0e0',
             backgroundColor: 'rgba(30, 5, 10, 0.98)',
             borderColor: '#8b0000',
@@ -536,8 +533,8 @@ export const LAYOUTS = {
         icon: 'fas fa-eye',
         category: 'theme',
         defaults: {
-            fontFamily: 'Cinzel Decorative',
-            fontSize: 14,
+            fontFamily: 'Cormorant Garamond',
+            fontSize: 16,
             textColor: '#ffccff',
             backgroundColor: 'rgba(40, 10, 50, 0.98)',
             borderColor: '#ff00ff',
@@ -559,8 +556,8 @@ export const LAYOUTS = {
         icon: 'fas fa-biohazard',
         category: 'theme',
         defaults: {
-            fontFamily: 'Pirata One',
-            fontSize: 14,
+            fontFamily: 'Neucha',
+            fontSize: 16,
             textColor: '#a8d8a8',
             backgroundColor: 'rgba(30, 35, 25, 0.95)',
             borderColor: '#556b2f',
@@ -580,8 +577,8 @@ export const LAYOUTS = {
         icon: 'fas fa-fire-alt',
         category: 'theme',
         defaults: {
-            fontFamily: 'Cinzel',
-            fontSize: 15,
+            fontFamily: 'Russo One',
+            fontSize: 14,
             textColor: '#ffdd99',
             backgroundColor: 'rgba(50, 15, 5, 0.95)',
             borderColor: '#ff4500',
@@ -603,8 +600,8 @@ export const LAYOUTS = {
         icon: 'fas fa-snowflake',
         category: 'theme',
         defaults: {
-            fontFamily: 'Cinzel',
-            fontSize: 14,
+            fontFamily: 'PT Sans',
+            fontSize: 15,
             textColor: '#e0f7fa',
             backgroundColor: 'rgba(10, 30, 50, 0.95)',
             borderColor: '#00bcd4',
@@ -626,8 +623,8 @@ export const LAYOUTS = {
         icon: 'fas fa-flask',
         category: 'theme',
         defaults: {
-            fontFamily: 'MedievalSharp',
-            fontSize: 14,
+            fontFamily: 'Philosopher',
+            fontSize: 15,
             textColor: '#ccff00',
             backgroundColor: 'rgba(20, 30, 10, 0.95)',
             borderColor: '#9acd32',
@@ -649,8 +646,8 @@ export const LAYOUTS = {
         icon: 'fas fa-sun',
         category: 'theme',
         defaults: {
-            fontFamily: 'Uncial Antiqua',
-            fontSize: 14,
+            fontFamily: 'PT Serif',
+            fontSize: 15,
             textColor: '#f5deb3',
             backgroundColor: 'rgba(70, 50, 30, 0.95)',
             borderColor: '#daa520',
@@ -670,8 +667,8 @@ export const LAYOUTS = {
         icon: 'fas fa-icicles',
         category: 'theme',
         defaults: {
-            fontFamily: 'Cinzel',
-            fontSize: 14,
+            fontFamily: 'PT Sans',
+            fontSize: 15,
             textColor: '#1a5276',
             backgroundColor: 'rgba(200, 230, 255, 0.9)',
             borderColor: '#87ceeb',
@@ -695,8 +692,8 @@ export const LAYOUTS = {
         icon: 'fas fa-angry',
         category: 'theme',
         defaults: {
-            fontFamily: 'Pirata One',
-            fontSize: 15,
+            fontFamily: 'Russo One',
+            fontSize: 14,
             textColor: '#ff6666',
             backgroundColor: 'rgba(20, 5, 5, 0.98)',
             borderColor: '#8b0000',
@@ -718,8 +715,8 @@ export const LAYOUTS = {
         icon: 'fas fa-dove',
         category: 'theme',
         defaults: {
-            fontFamily: 'Almendra',
-            fontSize: 14,
+            fontFamily: 'Vollkorn',
+            fontSize: 15,
             textColor: '#4a4a4a',
             backgroundColor: 'rgba(255, 255, 240, 0.95)',
             borderColor: '#ffd700',
@@ -747,8 +744,8 @@ export const LAYOUTS = {
         icon: 'fas fa-rocket',
         category: 'modern',
         defaults: {
-            fontFamily: 'inherit',
-            fontSize: 13,
+            fontFamily: 'Jura',
+            fontSize: 14,
             textColor: '#00ffff',
             backgroundColor: 'rgba(5, 15, 25, 0.98)',
             borderColor: '#00ffff',
@@ -770,8 +767,8 @@ export const LAYOUTS = {
         icon: 'fas fa-microchip',
         category: 'modern',
         defaults: {
-            fontFamily: 'inherit',
-            fontSize: 13,
+            fontFamily: 'Press Start 2P',
+            fontSize: 10,
             textColor: '#ff00ff',
             backgroundColor: 'rgba(15, 5, 20, 0.98)',
             borderColor: '#ff00ff',
@@ -793,7 +790,7 @@ export const LAYOUTS = {
         icon: 'fas fa-crosshairs',
         category: 'modern',
         defaults: {
-            fontFamily: 'inherit',
+            fontFamily: 'Russo One',
             fontSize: 13,
             textColor: '#90ee90',
             backgroundColor: 'rgba(20, 30, 20, 0.95)',
@@ -818,7 +815,7 @@ export const LAYOUTS = {
         icon: 'fas fa-heart',
         category: 'misc',
         defaults: {
-            fontFamily: 'Great Vibes',
+            fontFamily: 'Marck Script',
             fontSize: 18,
             textColor: '#ff69b4',
             backgroundColor: 'rgba(255, 240, 245, 0.95)',
@@ -841,8 +838,8 @@ export const LAYOUTS = {
         icon: 'fas fa-fist-raised',
         category: 'misc',
         defaults: {
-            fontFamily: 'Pirata One',
-            fontSize: 15,
+            fontFamily: 'Stalinist One',
+            fontSize: 13,
             textColor: '#ff4444',
             backgroundColor: 'rgba(20, 20, 20, 0.98)',
             borderColor: '#ff0000',
@@ -862,8 +859,8 @@ export const LAYOUTS = {
         icon: 'fas fa-graduation-cap',
         category: 'misc',
         defaults: {
-            fontFamily: 'IM Fell English',
-            fontSize: 14,
+            fontFamily: 'PT Serif',
+            fontSize: 15,
             textColor: '#2f4f4f',
             backgroundColor: 'rgba(245, 245, 220, 0.95)',
             borderColor: '#8b4513',
@@ -883,8 +880,8 @@ export const LAYOUTS = {
         icon: 'fas fa-bolt',
         category: 'misc',
         defaults: {
-            fontFamily: 'inherit',
-            fontSize: 14,
+            fontFamily: 'Stalinist One',
+            fontSize: 13,
             textColor: '#ffff00',
             backgroundColor: 'rgba(0, 0, 0, 0.98)',
             borderColor: '#ffff00',
@@ -906,8 +903,8 @@ export const LAYOUTS = {
         icon: 'fas fa-record-vinyl',
         category: 'misc',
         defaults: {
-            fontFamily: 'inherit',
-            fontSize: 15,
+            fontFamily: 'Dela Gothic One',
+            fontSize: 13,
             textColor: '#ffd700',
             backgroundColor: 'rgba(25, 25, 25, 0.98)',
             borderColor: '#ffd700',
@@ -929,8 +926,8 @@ export const LAYOUTS = {
         icon: 'fas fa-square',
         category: 'misc',
         defaults: {
-            fontFamily: 'inherit',
-            fontSize: 14,
+            fontFamily: 'PT Sans',
+            fontSize: 15,
             textColor: '#333333',
             backgroundColor: 'rgba(245, 245, 245, 0.95)',
             borderColor: '#cccccc',
@@ -954,8 +951,8 @@ export const LAYOUTS = {
         icon: 'fas fa-cog',
         category: 'theme',
         defaults: {
-            fontFamily: 'IM Fell English',
-            fontSize: 14,
+            fontFamily: 'Vollkorn',
+            fontSize: 15,
             textColor: '#d4c4a8',
             backgroundColor: 'rgba(45, 35, 25, 0.95)',
             borderColor: '#b87333',
@@ -979,8 +976,8 @@ export const LAYOUTS = {
         icon: 'fas fa-brain',
         category: 'theme',
         defaults: {
-            fontFamily: 'Almendra',
-            fontSize: 14,
+            fontFamily: 'Vollkorn',
+            fontSize: 15,
             textColor: '#8fbc8f',
             backgroundColor: 'rgba(10, 15, 20, 0.98)',
             borderColor: '#2f4f4f',
@@ -1004,7 +1001,7 @@ export const LAYOUTS = {
         icon: 'fas fa-seedling',
         category: 'theme',
         defaults: {
-            fontFamily: 'Tangerine',
+            fontFamily: 'Marck Script',
             fontSize: 20,
             textColor: '#e6e6fa',
             backgroundColor: 'rgba(40, 20, 60, 0.92)',
@@ -1029,8 +1026,8 @@ export const LAYOUTS = {
         icon: 'fas fa-star',
         category: 'theme',
         defaults: {
-            fontFamily: 'Cinzel',
-            fontSize: 14,
+            fontFamily: 'Cormorant',
+            fontSize: 16,
             textColor: '#fffaf0',
             backgroundColor: 'rgba(20, 30, 60, 0.95)',
             borderColor: '#ffd700',
@@ -1054,8 +1051,8 @@ export const LAYOUTS = {
         icon: 'fas fa-skull-crossbones',
         category: 'theme',
         defaults: {
-            fontFamily: 'Pirata One',
-            fontSize: 15,
+            fontFamily: 'Russo One',
+            fontSize: 13,
             textColor: '#deb887',
             backgroundColor: 'rgba(40, 30, 20, 0.95)',
             borderColor: '#8b4513',
@@ -1077,8 +1074,8 @@ export const LAYOUTS = {
         icon: 'fas fa-user-secret',
         category: 'theme',
         defaults: {
-            fontFamily: 'inherit',
-            fontSize: 14,
+            fontFamily: 'PT Serif',
+            fontSize: 15,
             textColor: '#c0c0c0',
             backgroundColor: 'rgba(15, 15, 15, 0.98)',
             borderColor: '#404040',
@@ -1100,8 +1097,8 @@ export const LAYOUTS = {
         icon: 'fas fa-vial',
         category: 'theme',
         defaults: {
-            fontFamily: 'Almendra',
-            fontSize: 14,
+            fontFamily: 'Vollkorn',
+            fontSize: 15,
             textColor: '#e0d8b8',
             backgroundColor: 'rgba(30, 35, 25, 0.95)',
             borderColor: '#8fbc8f',
@@ -1125,8 +1122,8 @@ export const LAYOUTS = {
         icon: 'fas fa-fire-alt',
         category: 'theme',
         defaults: {
-            fontFamily: 'Cinzel Decorative',
-            fontSize: 14,
+            fontFamily: 'Cormorant Garamond',
+            fontSize: 16,
             textColor: '#ff6347',
             backgroundColor: 'rgba(25, 5, 5, 0.98)',
             borderColor: '#8b0000',
@@ -1150,8 +1147,8 @@ export const LAYOUTS = {
         icon: 'fas fa-coins',
         category: 'theme',
         defaults: {
-            fontFamily: 'Cinzel',
-            fontSize: 14,
+            fontFamily: 'PT Serif',
+            fontSize: 15,
             textColor: '#2f2f2f',
             backgroundColor: 'rgba(250, 245, 235, 0.95)',
             borderColor: '#b8860b',
@@ -1175,8 +1172,8 @@ export const LAYOUTS = {
         icon: 'fas fa-feather-alt',
         category: 'theme',
         defaults: {
-            fontFamily: 'MedievalSharp',
-            fontSize: 14,
+            fontFamily: 'Neucha',
+            fontSize: 16,
             textColor: '#f5deb3',
             backgroundColor: 'rgba(50, 35, 25, 0.95)',
             borderColor: '#cd853f',
@@ -1202,7 +1199,7 @@ export const LAYOUTS = {
         icon: 'fas fa-star',
         category: 'theme',
         defaults: {
-            fontFamily: 'Cinzel Decorative',
+            fontFamily: 'Jura',
             fontSize: 14,
             textColor: '#e6e6fa',
             backgroundColor: 'rgba(10, 5, 20, 0.95)',
@@ -1227,7 +1224,7 @@ export const LAYOUTS = {
         icon: 'fas fa-drafting-compass',
         category: 'modern',
         defaults: {
-            fontFamily: 'Courier Prime',
+            fontFamily: 'PT Mono',
             fontSize: 13,
             textColor: '#ffffff',
             backgroundColor: 'rgba(0, 50, 100, 0.95)',
@@ -1250,8 +1247,8 @@ export const LAYOUTS = {
         icon: 'fas fa-pencil-alt',
         category: 'misc',
         defaults: {
-            fontFamily: 'Indie Flower',
-            fontSize: 15,
+            fontFamily: 'Neucha',
+            fontSize: 16,
             textColor: '#404040',
             backgroundColor: 'rgba(255, 255, 250, 0.95)',
             borderColor: '#808080',
@@ -1271,8 +1268,8 @@ export const LAYOUTS = {
         icon: 'fas fa-comment-dots',
         category: 'misc',
         defaults: {
-            fontFamily: 'Bangers',
-            fontSize: 16,
+            fontFamily: 'Dela Gothic One',
+            fontSize: 14,
             textColor: '#000000',
             backgroundColor: 'rgba(255, 255, 255, 0.98)',
             borderColor: '#000000',
@@ -1297,7 +1294,7 @@ export const LAYOUTS = {
         category: 'modern',
         defaults: {
             fontFamily: 'Press Start 2P',
-            fontSize: 12,
+            fontSize: 11,
             textColor: '#00ff00',
             backgroundColor: 'rgba(0, 0, 0, 0.95)',
             borderColor: '#ff00ff',
@@ -1321,8 +1318,8 @@ export const LAYOUTS = {
         icon: 'fas fa-radiation',
         category: 'modern',
         defaults: {
-            fontFamily: 'Black Ops One',
-            fontSize: 14,
+            fontFamily: 'Stalinist One',
+            fontSize: 13,
             textColor: '#ffff00',
             backgroundColor: 'rgba(20, 20, 0, 0.95)',
             borderColor: '#ffff00',
@@ -1346,8 +1343,8 @@ export const LAYOUTS = {
         icon: 'fas fa-ghost',
         category: 'theme',
         defaults: {
-            fontFamily: 'Cinzel',
-            fontSize: 14,
+            fontFamily: 'PT Sans',
+            fontSize: 15,
             textColor: '#e0ffff',
             backgroundColor: 'rgba(0, 20, 20, 0.8)',
             borderColor: '#7fffd4',
@@ -1371,8 +1368,8 @@ export const LAYOUTS = {
         icon: 'fas fa-fire',
         category: 'theme',
         defaults: {
-            fontFamily: 'Cinzel Decorative',
-            fontSize: 14,
+            fontFamily: 'Cormorant Garamond',
+            fontSize: 16,
             textColor: '#ffae42',
             backgroundColor: 'rgba(20, 5, 5, 0.95)',
             borderColor: '#ff4500',
@@ -1396,8 +1393,8 @@ export const LAYOUTS = {
         icon: 'fas fa-water',
         category: 'theme',
         defaults: {
-            fontFamily: 'Cinzel',
-            fontSize: 14,
+            fontFamily: 'Cormorant',
+            fontSize: 16,
             textColor: '#00ced1',
             backgroundColor: 'rgba(0, 5, 10, 0.98)',
             borderColor: '#008b8b',
@@ -1421,8 +1418,8 @@ export const LAYOUTS = {
         icon: 'fas fa-tree',
         category: 'theme',
         defaults: {
-            fontFamily: 'MedievalSharp',
-            fontSize: 14,
+            fontFamily: 'Philosopher',
+            fontSize: 15,
             textColor: '#f0fff0',
             backgroundColor: 'rgba(10, 30, 10, 0.95)',
             borderColor: '#32cd32',
@@ -1446,8 +1443,8 @@ export const LAYOUTS = {
         icon: 'fas fa-ankh',
         category: 'theme',
         defaults: {
-            fontFamily: 'Cinzel',
-            fontSize: 15,
+            fontFamily: 'Cormorant',
+            fontSize: 16,
             textColor: '#ffd700',
             backgroundColor: 'rgba(0, 0, 139, 0.95)',
             borderColor: '#ffd700',
@@ -1471,7 +1468,7 @@ export const LAYOUTS = {
         icon: 'fas fa-terminal',
         category: 'modern',
         defaults: {
-            fontFamily: 'Courier Prime',
+            fontFamily: 'PT Mono',
             fontSize: 13,
             textColor: '#00ff00',
             backgroundColor: 'rgba(0, 10, 0, 0.95)',
@@ -1496,8 +1493,8 @@ export const LAYOUTS = {
         icon: 'fas fa-music',
         category: 'modern',
         defaults: {
-            fontFamily: 'Permanent Marker',
-            fontSize: 14,
+            fontFamily: 'Pacifico',
+            fontSize: 15,
             textColor: '#00ffff',
             backgroundColor: 'rgba(255, 105, 180, 0.2)', // Translucent pink
             borderColor: '#ff00ff',
@@ -1521,7 +1518,7 @@ export const LAYOUTS = {
         icon: 'fas fa-church',
         category: 'theme',
         defaults: {
-            fontFamily: 'Uncial Antiqua',
+            fontFamily: 'Vollkorn',
             fontSize: 15,
             textColor: '#d3d3d3',
             backgroundColor: 'rgba(20, 20, 20, 0.98)',
@@ -1544,8 +1541,8 @@ export const LAYOUTS = {
         icon: 'fas fa-spider',
         category: 'theme',
         defaults: {
-            fontFamily: 'Nosifer',
-            fontSize: 14,
+            fontFamily: 'Stalinist One',
+            fontSize: 13,
             textColor: '#8b0000',
             backgroundColor: 'rgba(10, 0, 0, 0.95)',
             borderColor: '#2f0000',
@@ -1573,8 +1570,8 @@ export const LAYOUTS = {
         icon: 'fas fa-sun',
         category: 'theme',
         defaults: {
-            fontFamily: 'Metamorphous',
-            fontSize: 15,
+            fontFamily: 'Philosopher',
+            fontSize: 16,
             textColor: '#fff8dc',
             backgroundColor: 'rgba(60, 35, 5, 0.96)',
             borderColor: '#ffc800',
@@ -1624,7 +1621,7 @@ export const LAYOUTS = {
         category: 'theme',
         defaults: {
             fontFamily: 'Philosopher',
-            fontSize: 14,
+            fontSize: 15,
             textColor: '#d8c8f0',
             backgroundColor: 'rgba(15, 8, 30, 0.97)',
             borderColor: '#9966cc',
@@ -1648,8 +1645,8 @@ export const LAYOUTS = {
         icon: 'fas fa-gem',
         category: 'theme',
         defaults: {
-            fontFamily: 'Marcellus',
-            fontSize: 15,
+            fontFamily: 'Cormorant',
+            fontSize: 16,
             textColor: '#d0e8d0',
             backgroundColor: 'rgba(15, 30, 20, 0.96)',
             borderColor: '#2e8b57',
@@ -1677,8 +1674,8 @@ export const LAYOUTS = {
         icon: 'fas fa-fan',
         category: 'theme',
         defaults: {
-            fontFamily: 'Shippori Mincho',
-            fontSize: 14,
+            fontFamily: 'PT Serif',
+            fontSize: 15,
             textColor: '#4a3040',
             backgroundColor: 'rgba(255, 240, 245, 0.95)',
             borderColor: '#e8a0b0',
@@ -1727,7 +1724,7 @@ export const LAYOUTS = {
         icon: 'fas fa-moon',
         category: 'theme',
         defaults: {
-            fontFamily: 'Creepster',
+            fontFamily: 'Neucha',
             fontSize: 16,
             textColor: '#e8a0a0',
             backgroundColor: 'rgba(15, 5, 5, 0.98)',
@@ -1752,8 +1749,8 @@ export const LAYOUTS = {
         icon: 'fas fa-gem',
         category: 'theme',
         defaults: {
-            fontFamily: 'Quicksand',
-            fontSize: 14,
+            fontFamily: 'PT Sans',
+            fontSize: 15,
             textColor: '#3a3a50',
             backgroundColor: 'rgba(240, 248, 255, 0.92)',
             borderColor: '#88bbdd',
@@ -1802,7 +1799,7 @@ export const LAYOUTS = {
         icon: 'fas fa-disease',
         category: 'theme',
         defaults: {
-            fontFamily: 'Eater',
+            fontFamily: 'Neucha',
             fontSize: 16,
             textColor: '#c8d830',
             backgroundColor: 'rgba(15, 18, 8, 0.97)',
@@ -1827,8 +1824,8 @@ export const LAYOUTS = {
         icon: 'fas fa-language',
         category: 'theme',
         defaults: {
-            fontFamily: 'New Rocker',
-            fontSize: 14,
+            fontFamily: 'Russo One',
+            fontSize: 13,
             textColor: '#c0c8d8',
             backgroundColor: 'rgba(25, 28, 35, 0.96)',
             borderColor: '#5577aa',
@@ -1852,8 +1849,8 @@ export const LAYOUTS = {
         icon: 'fas fa-compact-disc',
         category: 'modern',
         defaults: {
-            fontFamily: 'Audiowide',
-            fontSize: 13,
+            fontFamily: 'Jura',
+            fontSize: 14,
             textColor: '#00ffff',
             backgroundColor: 'rgba(20, 5, 30, 0.97)',
             borderColor: '#ff1493',
@@ -1878,7 +1875,7 @@ export const LAYOUTS = {
         category: 'theme',
         defaults: {
             fontFamily: 'Lora',
-            fontSize: 14,
+            fontSize: 15,
             textColor: '#f0e0c0',
             backgroundColor: 'rgba(50, 30, 15, 0.95)',
             borderColor: '#8b6530',
@@ -1903,7 +1900,7 @@ export const LAYOUTS = {
         category: 'theme',
         defaults: {
             fontFamily: 'Cormorant Garamond',
-            fontSize: 15,
+            fontSize: 16,
             textColor: '#f0e8ff',
             backgroundColor: 'rgba(20, 10, 35, 0.94)',
             borderColor: '#cc77ff',
@@ -1927,8 +1924,8 @@ export const LAYOUTS = {
         icon: 'fas fa-hat-wizard',
         category: 'theme',
         defaults: {
-            fontFamily: 'Griffy',
-            fontSize: 16,
+            fontFamily: 'Marck Script',
+            fontSize: 18,
             textColor: '#c8b8e0',
             backgroundColor: 'rgba(15, 10, 20, 0.97)',
             borderColor: '#6b3fa0',
@@ -2011,12 +2008,12 @@ export function getLayoutChoices() {
 export function getLayoutsByCategory() {
     const categories = {
         basic: [],
-        class: [],
+        class:[],
         race: [],
         theme: [],
         modern: [],
         misc: [],
-        custom: []
+        custom:[]
     };
 
     for (const layout of Object.values(LAYOUTS)) {

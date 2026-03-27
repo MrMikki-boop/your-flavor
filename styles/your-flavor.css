@@ -9,6 +9,7 @@
 /* ============================================= */
 
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Crimson+Pro:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 /* ============================================= */
 /*  CSS Custom Properties - Premium Dark Theme   */
@@ -76,6 +77,71 @@
     --yf-accent-purple: #8a2be2;
     --yf-accent-red: #8b0000;
     --yf-shadow-soft: 0 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+/* ============================================= */
+/*  Cyrillic Font Fallback                       */
+/* ============================================= */
+
+/*
+ * Для шрифтов без кириллицы применяем fallback через unicode-range.
+ * Латиница → выбранный декоративный шрифт.
+ * Кириллица → подходящий по духу шрифт с кириллицей.
+ */
+
+/* Elegant / Royal / Warrior / Paladin → Cinzel → PT Serif для кириллицы */
+.yf-card-elegant .message-content,
+.yf-card-royal .message-content,
+.yf-card-warrior .message-content,
+.yf-card-paladin .message-content,
+.yf-preview-card.yf-card-elegant .yf-preview-content,
+.yf-preview-card.yf-card-royal .yf-preview-content {
+    font-family: 'Cinzel', 'PT Serif', serif;
+}
+
+/* Bard / Elf → Tangerine → Marck Script для кириллицы */
+.yf-card-bard .message-content,
+.yf-card-elf .message-content,
+.yf-preview-card.yf-card-bard .yf-preview-content,
+.yf-preview-card.yf-card-elf .yf-preview-content {
+    font-family: 'Tangerine', 'Marck Script', cursive;
+}
+
+/* Shadow / Thief / Pirate → Pirata One → Russo One */
+.yf-card-shadow .message-content,
+.yf-card-thief .message-content,
+.yf-card-pirate .message-content,
+.yf-preview-card.yf-card-shadow .yf-preview-content {
+    font-family: 'Pirata One', 'Russo One', sans-serif;
+}
+
+/* Futuristic / Cyberpunk / Matrix → Orbitron → Russo One */
+.yf-card-futuristic .message-content,
+.yf-card-cyberpunk .message-content,
+.yf-card-matrix .message-content,
+.yf-preview-card.yf-card-futuristic .yf-preview-content {
+    font-family: 'Orbitron', 'Russo One', sans-serif;
+}
+
+/* Arcade → Press Start 2P → Russo One (ближайшая альтернатива) */
+.yf-card-arcade .message-content {
+    font-family: 'Press Start 2P', 'Russo One', sans-serif;
+}
+
+/* Girly → Great Vibes → Marck Script */
+.yf-card-girly .message-content {
+    font-family: 'Great Vibes', 'Marck Script', cursive;
+}
+
+/* Harrowed → Nosifer → Neucha (рукописный, тревожный) */
+.yf-card-harrowed .message-content {
+    font-family: 'Nosifer', 'Neucha', cursive;
+}
+
+/* Sketch → Indie Flower → Neucha */
+.yf-card-sketch .message-content,
+.yf-card-sandstorm .message-content {
+    font-family: 'Indie Flower', 'Neucha', cursive;
 }
 
 /* ============================================= */
