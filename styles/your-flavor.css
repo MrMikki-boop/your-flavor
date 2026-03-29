@@ -1623,7 +1623,7 @@
 /* ============================================= */
 
 .chat-message.yf-card {
-    background: var(--yf-bg-color) !important;
+    background: var(--yf-bg-color);
     border: var(--yf-border-width) var(--yf-border-style) var(--yf-border-color) !important;
     border-radius: var(--yf-border-radius) !important;
     box-shadow: var(--yf-box-shadow);
@@ -1732,6 +1732,96 @@
         radial-gradient(ellipse at 80% 80%, rgba(139, 115, 85, 0.15) 0%, transparent 50%) !important;
     pointer-events: none !important;
     border-radius: var(--yf-border-radius) !important;
+}
+
+/* ============================================= */
+/*  System Compatibility (D&D 5e & Others)       */
+/* ============================================= */
+
+/* 1. Делаем системные карточки прозрачными, чтобы работал наш фон */
+.chat-message.yf-card .message-content .dnd5e2.chat-card,
+.chat-message.yf-card .message-content .dnd5e2 .card-header,
+.chat-message.yf-card .message-content .dnd5e2 .card-body,
+.chat-message.yf-card .message-content .item-card,
+.chat-message.yf-card .message-content .chat-card,
+.chat-message.yf-card .message-content .description,
+.chat-message.yf-card .message-content .card-content {
+    background: transparent !important;
+    background-color: transparent !important;
+    box-shadow: none !important;
+}
+
+/* 2. Принудительно перекрашиваем весь текст внутри карточки в светлый */
+.chat-message.yf-card .message-content .dnd5e2.chat-card *,
+.chat-message.yf-card .message-content .item-card * {
+    color: var(--yf-text-color) !important;
+    text-shadow: none !important;
+}
+
+/* 3. Красиво выделяем название предмета (например, "Изменение внешности") в цвет акцента */
+.chat-message.yf-card .message-content .dnd5e2 .card-header h3,
+.chat-message.yf-card .message-content .dnd5e2 .card-header .name,
+.chat-message.yf-card .message-content .item-card h3 {
+    color: var(--yf-name-color, var(--yf-border-color)) !important;
+    font-family: var(--yf-font-family) !important;
+    font-weight: bold !important;
+}
+
+/* 4. Исправляем иконки раскрытия (стрелочка вниз) */
+.chat-message.yf-card .message-content .dnd5e2 .card-header .description-control i {
+    color: var(--yf-text-color) !important;
+}
+
+/* 5. Приглушаем стандартные D&D-шные разделители (hr) */
+.chat-message.yf-card .message-content hr {
+    border-color: var(--yf-border-color) !important;
+    opacity: 0.3 !important;
+}
+
+/* ============================================= */
+/*  Inline Rolls & Content Links Adaptation      */
+/* ============================================= */
+
+/* 1. Универсальный стиль: прозрачный фон и наследование цвета текста */
+.chat-message.yf-card .message-content a.inline-roll,
+.chat-message.yf-card .message-content a.content-link,
+.chat-message.yf-card .message-content a.roll-link,
+.chat-message.yf-card .message-content .reference-link {
+    color: var(--yf-text-color) !important; /* Текст сам подстроится: светлый на тёмном, тёмный на светлом */
+    background: rgba(128, 128, 128, 0.15) !important; /* Универсальная "стеклянная" подложка */
+    border: 1px solid var(--yf-border-color) !important; /* Рамочка в цвет акцента макета */
+    border-radius: 4px !important;
+    padding: 1px 6px !important;
+    box-shadow: none !important;
+    text-decoration: none !important;
+    font-weight: 600 !important;
+    transition: all 0.2s ease !important;
+}
+
+/* 2. Иконки внутри ссылок (кубик, книжка) красим в акцентный цвет макета */
+.chat-message.yf-card .message-content a.inline-roll i,
+.chat-message.yf-card .message-content a.content-link i,
+.chat-message.yf-card .message-content a.roll-link i,
+.chat-message.yf-card .message-content .reference-link i {
+    color: var(--yf-border-color) !important;
+    margin-right: 3px;
+}
+
+/* 3. Красивый эффект при наведении (Hover) — заливаем акцентом, текст инвертируем */
+.chat-message.yf-card .message-content a.inline-roll:hover,
+.chat-message.yf-card .message-content a.content-link:hover,
+.chat-message.yf-card .message-content a.roll-link:hover,
+.chat-message.yf-card .message-content .reference-link:hover {
+    background: var(--yf-border-color) !important;
+    color: var(--yf-bg-color, #111) !important; /* Цвет текста становится цветом фона карточки */
+}
+
+/* 4. Иконки при наведении тоже инвертируем */
+.chat-message.yf-card .message-content a.inline-roll:hover i,
+.chat-message.yf-card .message-content a.content-link:hover i,
+.chat-message.yf-card .message-content a.roll-link:hover i,
+.chat-message.yf-card .message-content .reference-link:hover i {
+    color: var(--yf-bg-color, #111) !important;
 }
 
 /* Arcane */
