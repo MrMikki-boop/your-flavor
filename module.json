@@ -14,6 +14,12 @@
       "url": "https://github.com/wand-and-widgets",
       "discord": "",
       "flags": {}
+    },
+    {
+      "name": "MaxKoffing",
+      "url": "https://github.com/MrMikki-boop",
+      "discord": "",
+      "flags": {}
     }
   ],
   "esmodules": ["scripts/your-flavor.js"],
@@ -36,11 +42,11 @@
     }
   ],
   "socket": false,
-  "url": "https://github.com/wand-and-widgets/your-flavor",
-  "manifest": "https://github.com/wand-and-widgets/your-flavor/releases/latest/download/module.json",
-  "download": "https://github.com/wand-and-widgets/your-flavor/releases/latest/download/your-flavor.zip",
+  "url": "https://github.com/MrMikki-boop/your-flavor",
+  "manifest": "https://github.com/MrMikki-boop/your-flavor/releases/latest/download/module.json",
+  "download": "https://github.com/MrMikki-boop/your-flavor/releases/latest/download/your-flavor.zip",
   "license": "LICENSE",
   "readme": "README.md",
-  "bugs": "https://github.com/wand-and-widgets/your-flavor/issues",
+  "bugs": "https://github.com/MrMikki-boop/your-flavor/issues",
   "changelog": "CHANGELOG.md"
 }
